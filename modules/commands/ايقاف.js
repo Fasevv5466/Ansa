@@ -1,36 +1,31 @@
+const fs = require("fs");
+const path = __dirname + "/cache/addGroup.json";
 
-const fs = require('fs');
+if (!fs.existsSync(path)) fs.writeFileSync(path, JSON.stringify([]));
 
 module.exports.config = {
-    name: "ايقاف",
-    version: "1.0.0",
-    hasPermssion: 2,
-    credits: "Assistant",
-    description: "إيقاف البوت عن الرد على المستخدمين العاديين",
-    commandCategory: "system",
-    usages: "ايقاف",
-    cooldowns: 3,
-    usePrefix: false
+  name: "تقييد",
+  version: "1.0.0",
+  hasPermssion: 1,
+  credits: "Y-ANBU",
+  description: "تقييد كروب",
+  commandCategory: "المجموعة",
+  usages: "تقييد",
+  cooldowns: 3
 };
 
-module.exports.run = async function({ api, event, args }) {
-    const { threadID, messageID, senderID } = event;
-    const { ADMINBOT, NDH } = global.config;
-    
-    // التحقق من صلاحيات الأدمن
-    if (!ADMINBOT.includes(senderID) && !NDH.includes(senderID)) {
-        return api.sendMessage("⚠️ هذا الأمر مخصص للأدمن فقط!", threadID, messageID);
-    }
-    
-    const statusPath = './modules/commands/cache/bot_status.json';
-    
-    // إنشاء الملف إذا لم يكن موجوداً
-    if (!fs.existsSync(statusPath)) {
-        fs.writeFileSync(statusPath, JSON.stringify({ status: "active" }, null, 2));
-    }
-    
-    let botStatus = { status: "inactive" };
-    fs.writeFileSync(statusPath, JSON.stringify(botStatus, null, 2));
-    
-    return api.sendMessage("🔴 تم إيقاف البوت بنجاح!\n✅ البوت سيستجيب للأدمن فقط الآن", threadID, messageID);
+module.exports.run = async function ({ api, event }) {
+  const { threadID, messageID } = event;
+  const restrictList = JSON.parse(fs.readFileSync(path));
+
+  const isRestricted = restrictList.includes(threadID);
+  if (isRestricted) {
+    restrictList.splice(restrictList.indexOf(threadID), 1);
+    fs.writeFileSync(path, JSON.stringify(restrictList, null, 2));
+    return api.sendMessage("تم الغاء تقييد البوت", threadID, messageID);
+  } else {
+    restrictList.push(threadID);
+    fs.writeFileSync(path, JSON.stringify(restrictList, null, 2));
+    return api.sendMessage("تم تقييد البوت 🐢", threadID, messageID);
+  }
 };
