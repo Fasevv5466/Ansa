@@ -74,7 +74,7 @@
     "totp-generator": "",
     "tslib": "^2.6.0",
     "wikijs": "^6.4.1",
-    "ws3-fca": "^1.0.47",
+    "fb-chat-api-wrapper": "^1.0.0",
     "youtube-search-api": "^1.2.1",
     "ytdl-core": "^4.11.5"
   }
