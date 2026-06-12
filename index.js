@@ -1,1 +1,449 @@
-const _0x1e3841=_0x2bc4;function _0x2bc4(_0x45a363,_0x2fec8c){const _0x4e80b5=_0x4e80();return _0x2bc4=function(_0x2bc413,_0x56ac72){_0x2bc413=_0x2bc413-0x155;let _0x28902b=_0x4e80b5[_0x2bc413];return _0x28902b;},_0x2bc4(_0x45a363,_0x2fec8c);}(function(_0x3e5ce8,_0x248b97){const _0x517454=_0x2bc4,_0x24a6be=_0x3e5ce8();while(!![]){try{const _0x14a01b=parseInt(_0x517454(0x172))/0x1*(parseInt(_0x517454(0x164))/0x2)+-parseInt(_0x517454(0x184))/0x3*(-parseInt(_0x517454(0x18f))/0x4)+parseInt(_0x517454(0x181))/0x5+parseInt(_0x517454(0x170))/0x6+parseInt(_0x517454(0x1aa))/0x7*(parseInt(_0x517454(0x15d))/0x8)+-parseInt(_0x517454(0x187))/0x9+-parseInt(_0x517454(0x18a))/0xa;if(_0x14a01b===_0x248b97)break;else _0x24a6be['push'](_0x24a6be['shift']());}catch(_0x5eacdc){_0x24a6be['push'](_0x24a6be['shift']());}}}(_0x4e80,0x3fa60));const {spawn}=require(_0x1e3841(0x161)),{readFileSync}=require(_0x1e3841(0x180)),http=require(_0x1e3841(0x15c)),axios=require(_0x1e3841(0x16a)),semver=require('semver'),logger=require('./utils/log'),express=require(_0x1e3841(0x1a5)),path=require(_0x1e3841(0x17d)),chalk=require(_0x1e3841(0x17a)),chalk1=require(_0x1e3841(0x19e)),CFonts=require(_0x1e3841(0x1a7)),app=express(),port=process[_0x1e3841(0x195)][_0x1e3841(0x17c)]||0x7d6,moment=require('moment-timezone');var gio=moment['tz']('Asia/Ho_Chi_Minh')[_0x1e3841(0x19f)](_0x1e3841(0x1b3)),thu=moment['tz'](_0x1e3841(0x1a2))[_0x1e3841(0x19f)]('dddd');if(thu==_0x1e3841(0x16c))thu=_0x1e3841(0x159);if(thu=='Monday')thu=_0x1e3841(0x19c);if(thu==_0x1e3841(0x19a))thu='🔥\x20الثلاثاء';if(thu==_0x1e3841(0x1b9))thu='💧\x20الأربعاء';if(thu=='Thursday')thu=_0x1e3841(0x1ab);if(thu==_0x1e3841(0x1bd))thu='🎉\x20الجمعة';if(thu==_0x1e3841(0x158))thu=_0x1e3841(0x1b4);app['get']('/',function(_0x303f37,_0x1a916f){const _0x29213a=_0x1e3841,_0x181765={'wRCDS':_0x29213a(0x1a9)};_0x1a916f[_0x29213a(0x1a3)](path[_0x29213a(0x190)](__dirname,_0x181765['wRCDS']));}),app[_0x1e3841(0x15b)](port);function _0x4e80(){const _0x41075f=['kOcGR','\x20🌟','Saturday','🌞\x20الأحد','redBright','listen','http','2568aqoDTo','then','inherit','red','child_process','indexOf','🌈\x20SAIKO\x20is\x20back\x20online!\x20Hang\x20tight!','22nsQFzt','--trace-warnings','WJhed','[\x20Starting\x20]','block','stop','axios','uudsP','Sunday','\x20💖','🔄\x20SAIKO\x20IS\x20REBOOTING!!!','QMFqk','102102zUTxhl','cyanBright','34736nvSknq','frame','purple','fffDh','\x0aㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ『===\x20✨\x20SAIKO\x20BOT\x20LAUNCH\x20🌟\x20===』\x0a\x0a','https://raw.githubusercontent.com/tandung1/Bot12/main/package.json','white','\x20😿','chalkercli','render','PORT','path','center','VvLHB','fs-extra','685210fbsjBu','yellow','qdoPC','6807uLxbMg','console','codeExit','790119sTIsvu','pink','IVAIZ','7428300okPvaj','simple','OiKFD','Kmffv','NohTA','788SjJwAS','join','BpKkg','\x20🎉\x20\x0a','GrduZ','node','env','LOAD','SAIKO','log','sOyJm','Tuesday','magentaBright','🌙\x20الإثنين','gHEaI','chalk','format','yRjaI','cyan','Asia/Ho_Chi_Minh','sendFile','close','express','say','cfonts','get','/index.html','2359rYgeuL','🌈\x20الخميس','blue','replace','VGFaP','error','Mlwzj','NyDPm','oIcPS','HH:mm:ss\x20||\x20D/MM/YYYY','⭐\x20السبت','Jfwoi','QeDHk','bgMagentaBright','cZqLT','Wednesday','greenBright','blueBright','bold','Friday','ljHRY'];_0x4e80=function(){return _0x41075f;};return _0x4e80();}const rainbow=chalk['rainbow'](_0x1e3841(0x176))[_0x1e3841(0x169)]();rainbow[_0x1e3841(0x17b)]();const frame=rainbow[_0x1e3841(0x173)]();console[_0x1e3841(0x198)](frame),logger(chalk1['cyanBright']('🎉\x20Your\x20version\x20is\x20sparkling\x20fresh!')+chalk1[_0x1e3841(0x182)]('\x20✨'),'UPDATE');function startBot(_0x3941cc){const _0x2eb255=_0x1e3841,_0x4a2382={'VvLHB':_0x2eb255(0x186),'XFVsS':function(_0x45d222,_0xd8c086){return _0x45d222(_0xd8c086);},'Kmffv':function(_0x1425a9,_0xd0077c){return _0x1425a9+_0xd0077c;},'VGFaP':_0x2eb255(0x16e),'ECJvK':function(_0x16cd0,_0x450cbd){return _0x16cd0==_0x450cbd;},'BpKkg':function(_0x2f61d5,_0x158d67){return _0x2f61d5(_0x158d67);},'kZjBQ':_0x2eb255(0x163),'QMFqk':_0x2eb255(0x16d),'qdoPC':function(_0x383ceb,_0x161b8f,_0x2693a0){return _0x383ceb(_0x161b8f,_0x2693a0);},'GrduZ':'⚠️\x20Oops!\x20Something\x20broke:\x20','OiKFD':_0x2eb255(0x179),'uudsP':_0x2eb255(0x167),'Mlwzj':_0x2eb255(0x157),'oIcPS':'🚀\x20SAIKO\x20POWER-UP','NyDPm':_0x2eb255(0x194),'sOyJm':_0x2eb255(0x165),'cZqLT':'--async-stack-traces','ljHRY':_0x2eb255(0x1a4),'Jfwoi':_0x2eb255(0x1af)};_0x3941cc?_0x4a2382[_0x2eb255(0x183)](logger,chalk1[_0x2eb255(0x19b)](_0x3941cc)+chalk1[_0x2eb255(0x182)](_0x4a2382[_0x2eb255(0x1b0)]),_0x4a2382[_0x2eb255(0x1b2)]):'';const _0x127b46=spawn(_0x4a2382[_0x2eb255(0x1b1)],[_0x4a2382[_0x2eb255(0x199)],_0x4a2382[_0x2eb255(0x1b8)],'main.js'],{'cwd':__dirname,'stdio':_0x2eb255(0x15f),'shell':!![]});_0x127b46['on'](_0x4a2382[_0x2eb255(0x155)],async _0x28562f=>{const _0x11f649=_0x2eb255;var _0x345f62=_0x4a2382[_0x11f649(0x17f)]['replace'](_0x4a2382[_0x11f649(0x17f)],_0x28562f);if(_0x28562f==0x1)return _0x4a2382['XFVsS'](startBot,_0x4a2382[_0x11f649(0x18d)](chalk1[_0x11f649(0x15a)](_0x4a2382[_0x11f649(0x1ae)]),chalk1['green']('\x20⚡')));else{if(_0x4a2382['ECJvK'](_0x345f62[_0x11f649(0x162)](0x2),0x0))await new Promise(_0x93f7c0=>setTimeout(_0x93f7c0,parseInt(_0x345f62[_0x11f649(0x1ad)](0x2,''))*0x3e8)),_0x4a2382[_0x11f649(0x191)](startBot,_0x4a2382[_0x11f649(0x18d)](chalk1[_0x11f649(0x1a1)](_0x4a2382['kZjBQ']),chalk1['magenta'](_0x4a2382[_0x11f649(0x16f)])));else return;}}),_0x127b46['on'](_0x4a2382[_0x2eb255(0x1b5)],function(_0x27d786){const _0x55e591=_0x2eb255;_0x4a2382['qdoPC'](logger,chalk1[_0x55e591(0x160)](_0x4a2382[_0x55e591(0x193)])+JSON['stringify'](_0x27d786)+chalk1[_0x55e591(0x182)](_0x4a2382[_0x55e591(0x18c)]),_0x4a2382[_0x55e591(0x16b)]);});};axios[_0x1e3841(0x1a8)](_0x1e3841(0x177))[_0x1e3841(0x15e)](_0xa12a3f=>{}),setTimeout(async function(){const _0x3674b1=_0x1e3841,_0x527ceb={'kOcGR':_0x3674b1(0x17e),'SUlWQ':_0x3674b1(0x1a1),'WJhed':_0x3674b1(0x182),'AJuDX':_0x3674b1(0x174),'IVAIZ':_0x3674b1(0x188),'NohTA':_0x3674b1(0x18b),'CHOsD':'red','yRjaI':_0x3674b1(0x1ac),'QeDHk':function(_0x431cf3,_0x14b734){return _0x431cf3+_0x14b734;},'gHEaI':'🌌\x20Loading\x20SAIKO\x20magic\x20code','fffDh':function(_0xb60c0f,_0x3393e3){return _0xb60c0f(_0x3393e3);},'uIfmY':'🚀\x20Launching\x20SAIKO\x20now!'};CFonts[_0x3674b1(0x1a6)](_0x3674b1(0x197),{'font':_0x3674b1(0x168),'align':_0x527ceb[_0x3674b1(0x156)],'gradient':[_0x527ceb['SUlWQ'],_0x527ceb[_0x3674b1(0x166)]],'letterSpacing':0x3,'space':![]}),CFonts[_0x3674b1(0x1a6)]('Bot\x20Messenger\x20Powered\x20By\x20SAIKO\x20🚀',{'font':_0x3674b1(0x185),'align':_0x527ceb[_0x3674b1(0x156)],'gradient':[_0x527ceb['AJuDX'],_0x527ceb[_0x3674b1(0x189)]],'transitionGradient':!![]}),CFonts[_0x3674b1(0x1a6)]('Crafted\x20with\x20🌟\x20LOVE\x20🌟\x20&\x20🎨\x20COLORS',{'font':_0x527ceb[_0x3674b1(0x18e)],'align':_0x527ceb[_0x3674b1(0x156)],'gradient':[_0x527ceb['CHOsD'],_0x527ceb[_0x3674b1(0x1a0)]],'letterSpacing':0x2}),console['log'](chalk1[_0x3674b1(0x1b7)][_0x3674b1(0x178)][_0x3674b1(0x1bc)]('\x0a\x20🎉\x20SAIKO\x20BOT\x20READY\x20AT\x20'+gio+_0x3674b1(0x192))),rainbow[_0x3674b1(0x17b)]();const _0x42b327=rainbow[_0x3674b1(0x173)]();console[_0x3674b1(0x198)](_0x42b327),logger(_0x527ceb[_0x3674b1(0x1b6)](chalk1[_0x3674b1(0x1bb)](_0x527ceb[_0x3674b1(0x19d)]),chalk1[_0x3674b1(0x1ba)]('\x20✨')),_0x3674b1(0x196)),_0x527ceb[_0x3674b1(0x175)](startBot,chalk1[_0x3674b1(0x171)](_0x527ceb['uIfmY'])+chalk1[_0x3674b1(0x182)]('\x20🌟'));},0x46);
+const chalk = require('chalk');
+var cron = require("node-cron");
+const { exec } = require("child_process");
+const timerestart = 120
+var cron = require('node-cron');
+
+exec("rm -rf script/commands/data && mkdir -p script/commands/data && rm -rf script/commands/tad/* ", (error, stdout, stderr) => {
+    if (error) {
+        console.log(`error: ${error.message}`);
+        return;
+    }
+    if (stderr) {
+        console.log(`stderr: ${stderr}`);
+        return;
+    }
+    console.log(chalk.bold.hex("#00FA9A")("[ AUTO CLEAR CACHE ] 🪽❯ ") + chalk.hex("#00FA9A")("Successfully delete cache"))
+});
+
+const DateAndTime = new Date().toLocaleString('en-US', {
+
+         timeZone: 'Asia/Manila'
+ }); 
+//console.log(DateAndTime);
+console.log(chalk.bold.hex("#059242").bold(DateAndTime));
+
+
+//////////////////////////////////////////////////////
+//========= Require all variable need use =========//
+/////////////////////////////////////////////////////
+
+const { readdirSync, readFileSync, writeFileSync, existsSync, unlinkSync, rm } = require("fs-extra");
+const { join, resolve } = require("path");
+const { execSync } = require('child_process');
+const logger = require("./utils/log.js");
+const login = require("ws3-fca");
+const axios = require("axios");
+const listPackage = JSON.parse(readFileSync('./package.json')).dependencies;
+const listbuiltinModules = require("module").builtinModules;
+console.log(chalk.bold.hex("#03f0fc").bold("[ SOMI ] » ") + chalk.bold.hex("#fcba03").bold("Initializing variables..."));
+
+global.client = new Object({
+    commands: new Map(),
+    events: new Map(),
+    cooldowns: new Map(),
+    eventRegistered: new Array(),
+    handleSchedule: new Array(),
+    handleReaction: new Array(),
+    handleReply: new Array(),
+    mainPath: process.cwd(),
+    configPath: new String()
+   // premiumListsPath: new String(),
+});
+
+global.data = new Object({
+    threadInfo: new Map(),
+    threadData: new Map(),
+    userName: new Map(),
+    userBanned: new Map(),
+    threadBanned: new Map(),
+    commandBanned: new Map(),
+    threadAllowNSFW: new Array(),
+    allUserID: new Array(),
+    allCurrenciesID: new Array(),
+    allThreadID: new Array()
+});
+
+global.utils = require("./utils/index.js");
+
+
+global.nodemodule = new Object();
+
+global.config = new Object();
+
+global.configModule = new Object();
+
+global.moduleData = new Array();
+
+global.language = new Object();
+
+//////////////////////////////////////////////////////////
+//========= Find and get variable from Config =========//
+/////////////////////////////////////////////////////////
+
+
+var configValue;
+try {
+    global.client.configPath = join(global.client.mainPath, "config.json");
+    configValue = require(global.client.configPath);
+    logger.loader("Found file config: config.json");
+}
+catch {
+    if (existsSync(global.client.configPath.replace(/\.json/g,"") + ".temp")) {
+        configValue = readFileSync(global.client.configPath.replace(/\.json/g,"") + ".temp");
+        configValue = JSON.parse(configValue);
+        logger.loader(`Found: ${global.client.configPath.replace(/\.json/g,"") + ".temp"}`);
+    }
+    else return logger.loader("config.json not found!", "error");
+}
+
+try {
+    for (const key in configValue) global.config[key] = configValue[key];
+    logger.loader("Config Loaded!");
+}
+catch { return logger.loader("Can't load file config!", "error") }
+
+const { Sequelize, sequelize } = require("./includes/database/index.js");
+
+writeFileSync(global.client.configPath + ".temp", JSON.stringify(global.config, null, 4), 'utf8');
+
+/////////////////////////////////////////
+//========= Load language use =========//
+/////////////////////////////////////////
+
+const langFile = (readFileSync(`${__dirname}/languages/${global.config.language || "en"}.lang`, { encoding: 'utf-8' })).split(/\r?\n|\r/);
+const langData = langFile.filter(item => item.indexOf('#') != 0 && item != '');
+for (const item of langData) {
+    const getSeparator = item.indexOf('=');
+    const itemKey = item.slice(0, getSeparator);
+    const itemValue = item.slice(getSeparator + 1, item.length);
+    const head = itemKey.slice(0, itemKey.indexOf('.'));
+    const key = itemKey.replace(head + '.', '');
+    const value = itemValue.replace(/\\n/gi, '\n');
+    if (typeof global.language[head] == "undefined") global.language[head] = new Object();
+    global.language[head][key] = value;
+}
+
+global.getText = function (...args) {
+    const langText = global.language;    
+    if (!langText.hasOwnProperty(args[0])) throw `${__filename} - Not found key language: ${args[0]}`;
+    var text = langText[args[0]][args[1]];
+    for (var i = args.length - 1; i > 0; i--) {
+        const regEx = RegExp(`%${i}`, 'g');
+        text = text.replace(regEx, args[i + 1]);
+    }
+    return text;
+}
+console.log(global.getText('mirai', 'foundPathAppstate'))
+try {
+    var appStateFile = resolve(join(global.client.mainPath, global.config.APPSTATEPATH || "appstate.json"));
+    var appState = require(appStateFile);
+    logger.loader(global.getText("mirai", "foundPathAppstate"))
+}
+catch { return logger.loader(global.getText("mirai", "notFoundPathAppstate"), "error") }
+
+////////////////////////////////////////////////////////////
+//========= Login account and start Listen Event =========//
+////////////////////////////////////////////////////////////
+
+
+
+function onBot({ models: botModel }) {
+    const loginData = {};
+    loginData['appState'] = appState;
+    login(loginData, async(loginError, loginApiData) => {
+        if (loginError) return logger(JSON.stringify(loginError), `ERROR`);
+
+loginApiData.setOptions(global.config.FCAOption)
+        writeFileSync(appStateFile, JSON.stringify(loginApiData.getAppState(), null, '\x09'))
+        global.config.version = '1.2.14'
+        global.client.timeStart = new Date().getTime(),
+            function () {
+              const listCommand = readdirSync(global.client.mainPath + '/script/commands').filter(command => command.endsWith('.js') && !command.includes('example') && !global.config.commandDisabled.includes(command));
+              for (const command of listCommand) {
+                try {
+                  var module = require(global.client.mainPath + '/script/commands/' + command);
+                  if (!module.config || !module.run || !module.config.commandCategory) throw new Error("Error in cmd format");
+                  if (global.client.commands.has(module.config.name || '')) throw new Error("Name Is Repeated");
+
+                  
+                        if (module.config.dependencies && typeof module.config.dependencies == 'object') {
+                            for (const reqDependencies in module.config.dependencies) {
+                                const reqDependenciesPath = join(__dirname, 'nodemodules', 'node_modules', reqDependencies);
+                                try {
+                                    if (!global.nodemodule.hasOwnProperty(reqDependencies)) {
+                                        if (listPackage.hasOwnProperty(reqDependencies) || listbuiltinModules.includes(reqDependencies)) global.nodemodule[reqDependencies] = require(reqDependencies);
+                                        else global.nodemodule[reqDependencies] = require(reqDependenciesPath);
+                                    } else '';
+                                } catch {
+                                    var check = false;
+                                    var isError;
+                                    logger.loader(global.getText('mirai', 'notFoundPackage', reqDependencies, module.config.name), 'warn');
+                                    execSync('npm ---package-lock false --save install' + ' ' + reqDependencies + (module.config.dependencies[reqDependencies] == '*' || module.config.dependencies[reqDependencies] == '' ? '' : '@' + module.config.dependencies[reqDependencies]), { 'stdio': 'inherit', 'env': process['env'], 'shell': true, 'cwd': join(__dirname, 'nodemodules') });
+                                    for (let i = 1; i <= 3; i++) {
+                                        try {
+                                            require['cache'] = {};
+                                            if (listPackage.hasOwnProperty(reqDependencies) || listbuiltinModules.includes(reqDependencies)) global['nodemodule'][reqDependencies] = require(reqDependencies);
+                                            else global['nodemodule'][reqDependencies] = require(reqDependenciesPath);
+                                            check = true;
+                                            break;
+                                        } catch (error) { isError = error; }
+                                        if (check || !isError) break;
+                                    }
+                                    if (!check || isError) throw global.getText('mirai', 'cantInstallPackage', reqDependencies, module.config.name, isError);
+                                }
+                            }
+                            logger.loader(global.getText('mirai', 'loadedPackage', module.config.name));
+                        }
+                        if (module.config.envConfig) try {
+                            for (const envConfig in module.config.envConfig) {
+                                if (typeof global.configModule[module.config.name] == 'undefined') global.configModule[module.config.name] = {};
+                                if (typeof global.config[module.config.name] == 'undefined') global.config[module.config.name] = {};
+                                if (typeof global.config[module.config.name][envConfig] !== 'undefined') global['configModule'][module.config.name][envConfig] = global.config[module.config.name][envConfig];
+                                else global.configModule[module.config.name][envConfig] = module.config.envConfig[envConfig] || '';
+                                if (typeof global.config[module.config.name][envConfig] == 'undefined') global.config[module.config.name][envConfig] = module.config.envConfig[envConfig] || '';
+                            }
+                            logger.loader(global.getText('mirai', 'loadedConfig', module.config.name));
+                        } catch (error) {
+                            throw new Error(global.getText('mirai', 'loadedConfig', module.config.name, JSON.stringify(error)));
+                        }
+                        if (module.onLoad) {
+                            try {
+                                const moduleData = {};
+                                moduleData.api = loginApiData;
+                                moduleData.models = botModel;
+                                module.onLoad(moduleData);
+                            } catch (_0x20fd5f) {
+                                throw new Error(global.getText('mirai', 'cantOnload', module.config.name, JSON.stringify(_0x20fd5f)), 'error');
+                            };
+                        }
+                        if (module.handleEvent) global.client.eventRegistered.push(module.config.name);
+                        global.client.commands.set(module.config.name, module);
+                        logger.loader(global.getText('mirai', 'successLoadModule', module.config.name));
+                    } catch (error) {
+                        logger.loader(global.getText('mirai', 'failLoadModule', module.config.name, error), 'error');
+                    };
+                }
+            }(),
+            function() {
+                const events = readdirSync(global.client.mainPath + '/script/events').filter(event => event.endsWith('.js') && !global.config.eventDisabled.includes(event));
+                for (const ev of events) {
+                    try {
+                        var event = require(global.client.mainPath + '/script/events/' + ev);
+                        if (!event.config || !event.run) throw new Error(global.getText('mirai', 'errorFormat'));
+                        if (global.client.events.has(event.config.name) || '') throw new Error(global.getText('mirai', 'nameExist'));
+                        if (event.config.dependencies && typeof event.config.dependencies == 'object') {
+                            for (const dependency in event.config.dependencies) {
+                                const _0x21abed = join(__dirname, 'nodemodules', 'node_modules', dependency);
+                                try {
+                                    if (!global.nodemodule.hasOwnProperty(dependency)) {
+                                        if (listPackage.hasOwnProperty(dependency) || listbuiltinModules.includes(dependency)) global.nodemodule[dependency] = require(dependency);
+                                        else global.nodemodule[dependency] = require(_0x21abed);
+                                    } else '';
+                                } catch {
+                                    let check = false;
+                                    let isError;
+                                    logger.loader(global.getText('mirai', 'notFoundPackage', dependency, event.config.name), 'warn');
+                                    execSync('npm --package-lock false --save install' + dependency + (event.config.dependencies[dependency] == '*' || event.config.dependencies[dependency] == '' ? '' : '@' + event.config.dependencies[dependency]), { 'stdio': 'inherit', 'env': process['env'], 'shell': true, 'cwd': join(__dirname, 'nodemodules') });
+                                    for (let i = 1; i <= 3; i++) {
+                                        try {
+                                            require['cache'] = {};
+                                            if (global.nodemodule.includes(dependency)) break;
+                                            if (listPackage.hasOwnProperty(dependency) || listbuiltinModules.includes(dependency)) global.nodemodule[dependency] = require(dependency);
+                                            else global.nodemodule[dependency] = require(_0x21abed);
+                                            check = true;
+                                            break;
+                                        } catch (error) { isError = error; }
+                                        if (check || !isError) break;
+                                    }
+                                    if (!check || isError) throw global.getText('mirai', 'cantInstallPackage', dependency, event.config.name);
+                                }
+                            }
+                            logger.loader(global.getText('mirai', 'loadedPackage', event.config.name));
+                        }
+                        if (event.config.envConfig) try {
+                            for (const _0x5beea0 in event.config.envConfig) {
+                                if (typeof global.configModule[event.config.name] == 'undefined') global.configModule[event.config.name] = {};
+                                if (typeof global.config[event.config.name] == 'undefined') global.config[event.config.name] = {};
+                                if (typeof global.config[event.config.name][_0x5beea0] !== 'undefined') global.configModule[event.config.name][_0x5beea0] = global.config[event.config.name][_0x5beea0];
+                                else global.configModule[event.config.name][_0x5beea0] = event.config.envConfig[_0x5beea0] || '';
+                                if (typeof global.config[event.config.name][_0x5beea0] == 'undefined') global.config[event.config.name][_0x5beea0] = event.config.envConfig[_0x5beea0] || '';
+                            }
+                            logger.loader(global.getText('mirai', 'loadedConfig', event.config.name));
+                        } catch (error) {
+                            throw new Error(global.getText('mirai', 'loadedConfig', event.config.name, JSON.stringify(error)));
+                        }
+                        if (event.onLoad) try {
+                            const eventData = {};
+                            eventData.api = loginApiData, eventData.models = botModel;
+                            event.onLoad(eventData);
+                        } catch (error) {
+                            throw new Error(global.getText('mirai', 'cantOnload', event.config.name, JSON.stringify(error)), 'error');
+                        }
+                        global.client.events.set(event.config.name, event);
+                        logger.loader(global.getText('mirai', 'successLoadModule', event.config.name));
+                    } catch (error) {
+                        logger.loader(global.getText('mirai', 'failLoadModule', event.config.name, error), 'error');
+                    }
+                }
+            }()
+        logger.loader(global.getText('mirai', 'finishLoadModule', global.client.commands.size, global.client.events.size)) 
+        logger.loader('=== ' + (Date.now() - global.client.timeStart) + 'ms ===')
+        writeFileSync(global.client['configPath'], JSON['stringify'](global.config, null, 4), 'utf8') 
+        unlinkSync(global['client']['configPath'] + '.temp');        
+        const listenerData = {};
+        listenerData.api = loginApiData; 
+        listenerData.models = botModel;
+        const listener = require('./includes/listen.js')(listenerData);
+
+        function listenerCallback(error, message) {
+            if (error) return logger(global.getText('mirai', 'handleListenError', JSON.stringify(error)), 'error');
+            if (['presence', 'typ', 'read_receipt'].some(data => data == message.type)) return;
+            if (global.config.DeveloperMode == !![]) console.log(message);
+            return listener(message);
+        };
+        global.handleListen = loginApiData.listenMqtt(listenerCallback);
+        
+        
+        global.client.api = loginApiData
+        logger(`SOMI ✨`, '[ by Y-ANBU ]');
+        
+        
+      var cron = require("node-cron");
+      //notif if bot is kaka on palang
+const momentt = require("moment-timezone").tz("Africa/Casablanca");
+    const time = momentt.format("HH:mm:ss");
+loginApiData.sendMessage(`لـقـد تـم تـشـغـيـل الـبـوت فـي ${time}✅`, global.config.ADMINBOT[0])
+
+      //for autochange bio naman
+cron.schedule(`0 0 */1 * * *`, () => {
+var o = moment.tz("Asia/Manila").format("MM/DD/YYYY");
+  loginApiData.changeBio(`Prefix: ${global.config.PREFIX}\n\nBot Name: ${global.config.BOTNAME}\nDate Now: ${o}`);
+}, {
+  scheduled: true,
+  timezone: "Africa/Casablanca"
+}); 
+      
+cron.schedule('0 0 0 * * *', () => {
+  loginApiData.getThreadList(30, null, ["INBOX"], (err, list) => {
+    if (err) return console.log("ERR: "+err);
+    list.forEach(now => (now.isGroup == false && now.threadID != list.threadID) ? loginApiData.sendMessage("Good Morning everyone!", now.threadID) : '');
+  });
+}, {
+  scheduled: false,
+  timezone: "Asia/Manila"
+});
+cron.schedule('0 0 1 * * *', () => {
+  loginApiData.getThreadList(30, null, ["INBOX"], (err, list) => {
+    if (err) return console.log("ERR: "+err);
+    list.forEach(now => (now.isGroup == false && now.threadID != list.threadID) ? loginApiData.sendMessage("Good Morning everyone!", now.threadID) : '');
+  });
+}, {
+  scheduled: false,
+  timezone: "Asia/Manila"
+});
+cron.schedule('0 0 5 * * *', () => {
+  loginApiData.getThreadList(30, null, ["INBOX"], (err, list) => {
+    if (err) return console.log("ERR: "+err);
+    list.forEach(now => (now.isGroup == false && now.threadID != list.threadID) ? loginApiData.sendMessage("Good Morning everyone!", now.threadID) : '');
+  });
+}, {
+  scheduled: false,
+  timezone: "Asia/Manila"
+});
+cron.schedule('0 0 6 * * *', () => {
+  loginApiData.getThreadList(30, null, ["INBOX"], (err, list) => {
+    if (err) return console.log("ERR: "+err);
+    list.forEach(now => (now.isGroup == false && now.threadID != list.threadID) ? loginApiData.sendMessage("Good Morning everyone! let's eat breakfast", now.threadID) : '');
+  });
+}, {
+  scheduled: false,
+  timezone: "Asia/Manila"
+});
+cron.schedule('0 0 7 * * *', () => {
+  loginApiData.getThreadList(30, null, ["INBOX"], (err, list) => {
+    if (err) return console.log("ERR: "+err);
+    list.forEach(now => (now.isGroup == false && now.threadID != list.threadID) ? loginApiData.sendMessage("Good Morning everyone!", now.threadID) : '');
+  });
+}, {
+  scheduled: false,
+  timezone: "Asia/Manila"
+});
+cron.schedule('0 0 12 * * *', () => {
+  loginApiData.getThreadList(30, null, ["INBOX"], (err, list) => {
+    if (err) return console.log("ERR: "+err);
+    list.forEach(now => (now.isGroup == false && now.threadID != list.threadID) ? loginApiData.sendMessage("Good Afternoon everyone! let's eat lunch", now.threadID) : '');
+  });
+}, {
+  scheduled: false,
+  timezone: "Asia/Manila"
+});
+cron.schedule('0 0 13 * * *', () => {
+  loginApiData.getThreadList(30, null, ["INBOX"], (err, list) => {
+    if (err) return console.log("ERR: "+err);
+    list.forEach(now => (now.isGroup == false && now.threadID != list.threadID) ? loginApiData.sendMessage("Good Afternoon everyone!", now.threadID) : '');
+  });
+}, {
+  scheduled: false, 
+  timezone: "Asia/Manila"
+});
+cron.schedule('0 0 18 * * *', () => {
+  loginApiData.getThreadList(30, null, ["INBOX"], (err, list) => {
+    if (err) return console.log("ERR: "+err);
+    list.forEach(now => (now.isGroup == false && now.threadID != list.threadID) ? loginApiData.sendMessage("Good Evening everyone!", now.threadID) : '');
+  });
+}, {
+  scheduled: false,
+  timezone: "Asia/Manila"
+});
+cron.schedule('0 0 21 * * *', () => {
+  loginApiData.getThreadList(30, null, ["INBOX"], (err, list) => {
+    if (err) return console.log("ERR: "+err);
+    list.forEach(now => (now.isGroup == false && now.threadID != list.threadID) ? loginApiData.sendMessage("It's 9:00PM time to sleep Goodnight everyone", now.threadID) : '');
+  });
+}, {
+  scheduled: false,
+  timezone: "Asia/Manila"
+});
+        //66666
+     
+        // setInterval(async function () {
+        //     // global.handleListen.stopListening(),
+        //     global.checkBan = ![],
+        //     setTimeout(function () {
+        //         return global.handleListen = loginApiData.listenMqtt(listenerCallback);
+        //     }, 500);
+        //     try {
+        //         await checkBan(loginApiData);
+        //     } catch {
+        //         return process.exit(0);
+        //     };
+        //     if (!global.checkBan) logger(global.getText('mirai', 'warningSourceCode'), '[ GLOBAL BAN ]');
+        //     global.config.autoClean && (global.data.threadInfo.clear(), global.client.handleReply = global.client.handleReaction = {});
+        //     if (global.config.DeveloperMode == !![]) 
+        //         return logger(global.getText('mirai', 'refreshListen'), '[ DEV MODE ]');
+        // }, 600000);
+    });
+}
+//////////////////////////////////////////////
+//========= Connecting to Database =========//
+//////////////////////////////////////////////
+
+(async() => {
+    try {
+        await sequelize.authenticate();
+        const authentication = {};
+        authentication.Sequelize = Sequelize;
+        authentication.sequelize = sequelize;
+        const models = require('./includes/database/model.js')(authentication);
+        logger(global.getText('mirai', 'successConnectDatabase'), '[ DATABASE ]');
+        const botData = {};
+        botData.models = models
+        onBot(botData);
+    } catch (error) { logger(global.getText('mirai', 'successConnectDatabase', JSON.stringify(error)), '[ DATABASE ]'); }
+console.log(chalk.bold.hex("#eff1f0").bold("════════════════ SUCCESFULLY ═════════════════"));
+
+})();
+process.on('unhandledRejection', (err, p) => {});
+
+
